@@ -1,0 +1,14 @@
+header{
+    /* background-color: var(--bg-accent); */
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.title{
+    /* background-color: aquamarine; */
+    /* line-height: 70px; */
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 3px #DA1212;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Press+Start+2P&family=Quantico&family=Titan+One&family=Bungee+Inline&display=swap');
+
+/* ESTILOS GLOBALES */
+
+html {
+  /*Configuración para usar las cajas*/
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,/*Se eliminan configuraciones por defecto del navegador*/
+    *:before,
+    *:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  font-family: 'Press Start 2P', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color:var(--fc-primary);
+  font-size: 1.2rem;
+}
+
+div{
+  height: 100%;
+  /* background-color: cornflowerblue; */
+}
+
+:root{
+  --bg-primary: #FC4F4F;
+  --bg-accent: #FF9F45;
+  /* --prueba: rgb(250, 62, 62); */
+  
+  --fc-primary: #f0f0f0;
+}

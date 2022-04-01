@@ -1,0 +1,5 @@
+
+main{
+    background-color: var(--bg-accent);
+    grid-area: main;
+}

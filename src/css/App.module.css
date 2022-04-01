@@ -1,0 +1,10 @@
+.App{
+    /* background-color: aqua; */
+    height: 100%;
+    display: grid;
+    /* gap: 5px; */
+    grid-template:
+    "header" 60px
+    "main" 1fr
+    "footer" 80px;
+}
