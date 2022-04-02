@@ -66,7 +66,7 @@ function App() {
    useEffect(()=>{ //SE EJECUTA 1 VEZ
 
     const getNumbers = ()=>{          
-      const rows = getRandomArbitrary(2, 6);
+      const rows = getRandomArbitrary(3, 7);
       const columns = getRandomArbitrary(2, 7);
       const randomNumber = (rows * columns)/2;
 
@@ -161,6 +161,7 @@ function App() {
 
     const updateRefresh = () => {
       setRefresh(false);
+      setNumberOfCards(0);
     };
     if(refresh)
       updateRefresh();
@@ -188,6 +189,7 @@ function App() {
         setRefresh={setRefresh} 
         setCount={setCount} 
         setRandomListCharacter={setRandomListCharacter}
+        numberOfCards={numberOfCards}
         gridOfCards={gridOfCards}
       />
       <Footer />

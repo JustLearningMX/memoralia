@@ -40,4 +40,6 @@ div{
   /* --prueba: rgb(250, 62, 62); */
   
   --fc-primary: #f0f0f0;
+  --rows: 1;
+  --columns: 1;
 }
